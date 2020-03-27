@@ -161,6 +161,7 @@ section.resume-section .resume-item .resume-date {
 
 .bg-primary {
   background-color: rgb(66, 141, 255) !important;
+  /* background-image: linear-gradient(red,orange,yellow,green,blue,darkblue,purple) !important */
 }
 
 .text-primary {
@@ -173,4 +174,33 @@ a {
 
 a:hover, a:focus, a:active {
   color: rgb(66, 110, 255);
+}
+
+.kwon-01 {
+  font-size: 60px;
+  padding-right: 20px;
+}
+
+.kwon-img01 {
+  max-width: 100%;
+  margin: 2%;
+}
+.kwon-td01 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: lightseagreen;
+}
+
+.kwon-img02 {
+  max-width: 80%;
+  margin: 2%;
+  cursor: pointer;
+}
+.kwon-td02 {
+  padding-top: 5%;
+}
+.kwon-td03 {
+  padding-left: 1%;
+  padding-right: 1%;
 }
