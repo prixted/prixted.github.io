@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>미니 프로젝트 - KH아웃렛</title>
+  <title>세미 프로젝트 - PETNER</title>
 
   <!-- Bootstrap core CSS -->
   <link href="../resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,16 +26,16 @@
 
 <body id="page-top">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary2 fixed-top" id="sideNav">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary3 fixed-top" id="sideNav">
     <ul class="navbar-nav">
-      <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="../index.html"><i class="fas fa-arrow-left"> BACK</i></a>
-      </li>
+        <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="../index.html"><i class="fas fa-arrow-left"> BACK</i></a>
+        </li>
     </ul>
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Mini Project</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../resources/img/mini_logo.JPG" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../resources/img/petner_small_logo.jpg" alt="" style="max-width: 120%;">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +44,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#MiniProject">Mini Project</a>
+          <a class="nav-link js-scroll-trigger" href="#SemiProject">Semi Project</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#about">ABOUT</a>
@@ -57,16 +57,18 @@
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#review">review</a>
+        </li>
+        </li>
       </ul>
     </div>
   </nav>
 
   <div class="container-fluid p-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="MiniProject">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="SemiProject">
       <div class="w-100">
-        <h1 class="mb-0"><span class="kwon-01">Mini Project</span><br>
-          <span class="text-primary2">KH아웃렛</span>
+        <h1 class="mb-0"><span class="kwon-01">Semi Project</span><br>
+          <span class="text-primary3">PETNER</span>
         </h1>
 
       </div>
@@ -82,10 +84,16 @@
           <div class="resume-content">
             <h3 class="mb-0">Mini Project</h3>
             <div class="subheading mb-3"></div>
-            <div>구현기간 : <span class="text-primary">2019-11-11 ~ 2019-11-18</span></div><br>
-            <p>주제 : 'KH아웃렛'이라는 가상의 아웃렛 소개 및 매장안내, 주차등 고객편의를 위한 프로그램입니다.</p>
-            <p>&lt;개발환경&gt;<br>language : JAVA<br>IDE : eclipse<br>etc : SWING GUI
+            <div>구현기간 <br>
+                기획 : <span class="text-primary">2020-01-10 ~ </span><br>
+                구현 : <span class="text-primary">2020-02-05 ~ 2020-02-21</span></div><br>
+            <p>주제 : 반려동물을 위한 호텔, 미용, 병원 등의 중개 사이트입니다.
+                </p>
+            <p>&lt;개발환경&gt;<br>language : JAVA, HTML5, CSS3, JavaScript<br>Tools : eclipse, Visual Studio Code, sqldeveloper
+                <br>DBMS : Oracle DB<br>Server : Apache Tomcat 8.5
             </p>
+            <p>JSP/Servlet 기반의 홈페이지입니다. </p>
+
 
           </div>
         </div>
@@ -107,11 +115,12 @@
         
         <table>
           <tr>
-            <td><img src="../resources/img/mini_main.JPG" class="kwon-img01"></td>
+            <td><img src="../resources/img/petner_main.JPG" class="kwon-img01"></td>
           </tr>
           <tr>
-            <td class="kwon-td01">프로젝트 메인 화면입니다.<br>
-              주요 기능으로는 주차관련, 매장안내, 이벤트안내, 매장검색이 있습니다.</td>
+            <td class="kwon-td02">프로젝트 메인 화면입니다.<br>
+              
+            </td>
           </tr>
         </table>
 
@@ -230,7 +239,6 @@
             <li>차량 주차위치 확인 후 뒤로가기 or 출차가능</li>
             <li>사전출차시 시간을 계산하여 요금계산, 15분(혹은 설정한 시간)이내로 출차를 요청하는 알림</li>
           </ul>
-          이 정도입니다.
         </p>
       </div>
       <div>
@@ -242,27 +250,26 @@
           </tr>
           <Tr>
             <td class="kwon-td03">주차데이터관리는 .dat파일을 만들어서 그 안에 쌓이도록 하였습니다.<br>
-              또한, 주차관련 데이터가 변경될 때는 ObjectIntputStream("first.dat")파일을 불러온 후, 값을 변경합니다.<br>
+              또한, 주차관련 데이터가 변경될 때는 ObjectIntputStream("first.dat")파일을 불러온 후, 값 변경<br>
               그리고 그 값을 다시 ObjectOutputStream("first.dat")으로 저장합니다.</td>
-            <td class="kwon-td03">주차 자리가 비어있나 확인 후<br> 비어있으면 초록색, 비어있지 않으면 붉은색으로 표시합니다.<br>
-                  비어있는 공간을 누르면 값을 입력 한 후 , 저장합니다.</td>
+            <td class="kwon-td03">주차 자리가 비어있나 확인 후<br> 비어있으면 초록색, 차 있으면 붉은색으로 표시합니다.<br>
+                  비어있는 공간을 누르면 값 입력 후 , 저장합니다.</td>
           </Tr>
           <tr class="kwon-tr02">
             <td class="kwon-td02"><img src="../resources/img/parking03.JPG" class="kwon-img02 modal-img02"></td>
             <td class="kwon-td02"><img src="../resources/img/parking04.JPG" class="kwon-img02 modal-img02"></td>
           </tr>
           <Tr>
-            <td class="kwon-td03">자신의 주차 자리를 찾아주는 메소드입니다.<br>
-              전화번호 값, 차량번호 값 둘 중 하나만 들어오면<br> 찾기 메소드를 실행시킵니다.<br>
-              만약 두개의 값이 모두 없으면 "잘못 입력하셨습니다"가 출력됩니다.<br>
-              값을 입력받은 후<br> 값이 null이 아니고 맞는 값이 있으면 true 반환되고<br>
-              null값이 아니지만, 맞는 값이 없으면<br> "차량을 찾을 수 없습니다"가 출력됩니다.<br>
+            <td class="kwon-td03">주차 자리를 찾아주는 메소드<br>
+              전화번호 값, 차량번호 값 둘 중 하나만 들어오면 찾기 메소드 실행
+              만약 두개의 값이 모두 없으면 "잘못 입력하셨습니다" 출력<br>
+              값을 입력받은 후, 값이 null이 아니고, 맞는 값이 있으면 true 반환<br>
+              null값이 아니지만, 맞는 값이 없으면 "차량을 찾을 수 없습니다" 출력<br>
               </td>
             <td class="kwon-td03">주차자리 확인 후, 혹은 주차요금 정산을 누르면<br>
-              주차요금 정산 페이지로 이동됩니다.<br>
+              주차요금 정산 페이지로 이동<br>
               주차예약을 할 때 저장해놓은 시간과<br>
-              현재 시간을 비교한 뒤에, 30분마다 1000원씩 부과됩니다.<br>
-              (값과 시간은 임의의 값으로 잡아놓았습니다.)
+              현재 시간을 비교한 뒤에, 30분마다 1000원씩 부과<br>
             </td>
           </Tr>
         </table>
@@ -310,13 +317,6 @@
           <h3 class="mb-0">소감</h3>
           <div class="subheading mb-3"></div>
           <p>
-            처음 자바를 배운지 1달이 조금 넘었을 즈음 미니프로젝트 시작<br>
-            아마 제대로 된 프로젝트를 들어가기 전 프로젝트가 어떤건지 맛을 보라는 선생님의 의도였던 것 같다.<br>
-            또한 지금까지 배운 것들을 제대로 사용해보라는 것이었을지도..<Br>
-            단순히 자바만을 가지고 프로그래밍, 화면출력은 Swing GUI를 사용<br><br>
-            좋지 않은 실력이었지만 너무도 조용한 우리 조원들 중에 그나마 말이라도 한다는 이유로 추천받은 조장..<br>
-            비전공자에 처음 해보는 프로젝트라 시작하기전에 잠도 제대로 못 잤지만 며칠만에 제대로 된(?) 결과물이 나왔다<br>
-            생각보다 빠른 시간에 만들어졌고 마음만 앞서는 조장을 잘 도와준 조원들께 고마울 뿐이었다.
           
           </p>
         

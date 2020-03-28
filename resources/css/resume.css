@@ -163,10 +163,24 @@ section.resume-section .resume-item .resume-date {
   background-color: rgb(66, 141, 255) !important;
   /* background-image: linear-gradient(red,orange,yellow,green,blue,darkblue,purple) !important */
 }
+.bg-primary2{
+  background-color: lightseagreen;
+}
+.bg-primary3{
+  background-color: #9a2c9a;
+}
+
 
 .text-primary {
   color: rgb(66, 141, 255) !important;
 }
+.text-primary2 {
+  color: lightseagreen !important;
+}
+.text-primary3 {
+  color: #9a2c9a !important;
+}
+
 
 a {
   color: rgb(66, 141, 255);
@@ -185,16 +199,20 @@ a:hover, a:focus, a:active {
   max-width: 100%;
   margin: 2%;
 }
+
 .kwon-td01 {
   text-align: center;
   font-size: 22px;
   font-weight: 700;
   color: lightseagreen;
 }
+.td001 {
+  padding: 2%;
+}
 
 .kwon-img02 {
   max-width: 80%;
-  margin: 2%;
+  margin: 5%;
   cursor: pointer;
 }
 .kwon-td02 {
@@ -203,4 +221,23 @@ a:hover, a:focus, a:active {
 .kwon-td03 {
   padding-left: 1%;
   padding-right: 1%;
+}
+
+#SemiProject {
+  position: relative;
+  z-index:1;
+}
+#SemiProject:after {
+  background-image: url(../img/petner_main.JPG);
+  top:10%;
+  left:0;
+  position:absolute;
+  background-size:100%;
+  opacity:0.2!important;
+  filter:alpha(opacity=50);
+  z-index:-1;
+  content:"";
+  width:100%;
+  height:100%;
+  background-repeat: no-repeat;
 }
