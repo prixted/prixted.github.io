@@ -281,13 +281,39 @@ window.onload = function(){
   };
   // function of everything
   
+
+// 미니프로젝트 모달
 $('.modal-img02').click(function() {
-    var i=$('.modal-img02').index(this)+1;
-    $('#myModal'+i).show();
+  var i=$('.modal-img02').index(this)+1;
+  $('#myModal'+i).show();
 })
-
-
-function close_pop(flag) {
-  $('.myModal').hide();
-  
+function close_popMini(flag) {
+$('.myModal').hide();
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 세미 프로젝트 모달
+$('.modal-img03').click(function() {
+  var i=$('.modal-img03').index(this)+1;
+  $('#myModalPetner'+i).show();
+})
+function close_popPetner(flag) {
+  $('.myModalPetner').hide();
+};
+
