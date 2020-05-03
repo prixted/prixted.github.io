@@ -236,7 +236,7 @@ a:hover, a:focus, a:active {
 }
 
 
-#about:after {
+#main_about:after {
   background-image: url(../img/about_main.JPG);
   top:30%;
   left:14%;
@@ -251,6 +251,21 @@ a:hover, a:focus, a:active {
   background-repeat: no-repeat;
 }
 
+
+#MiniProject:after {
+  background-image: url(../img/mini_main.JPG);
+  top:10%;
+  left:15%;
+  position:absolute;
+  background-size:100%;
+  opacity:0.2!important;
+  filter:alpha(opacity=50);
+  z-index:-1;
+  content:"";
+  width:60%;
+  height:100%;
+  background-repeat: no-repeat;
+}
 
 
 
