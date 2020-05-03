@@ -159,8 +159,9 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+/* Side Bar 색상 순서 : index, mini, semi, fianl */ 
 .bg-primary {
-  background-color: rgb(66, 141, 255) !important;
+  background-color: rgb(0, 61, 154) !important;
   /* background-image: linear-gradient(red,orange,yellow,green,blue,darkblue,purple) !important */
 }
 .bg-primary2{
@@ -169,10 +170,14 @@ section.resume-section .resume-item .resume-date {
 .bg-primary3{
   background-color: #9a2c9a;
 }
+.bg-primary4{
+  background-color: rgb(63, 63, 63);
+}
 
 
+/* Text 색상 */
 .text-primary {
-  color: rgb(66, 141, 255) !important;
+  color: rgb(0, 61, 154) !important;
 }
 .text-primary2 {
   color: lightseagreen !important;
@@ -180,10 +185,12 @@ section.resume-section .resume-item .resume-date {
 .text-primary3 {
   color: #9a2c9a !important;
 }
-
+.text-primary4 {
+  color: rgb(63, 63, 63);
+}
 
 a {
-  color: rgb(66, 141, 255);
+  color: rgb(0, 81, 202);
 }
 
 a:hover, a:focus, a:active {
@@ -196,7 +203,7 @@ a:hover, a:focus, a:active {
 }
 
 .kwon-img01 {
-  max-width: 100%;
+  max-width: 320px;
   margin: 2%;
 }
 
@@ -253,6 +260,24 @@ a:hover, a:focus, a:active {
   max-width:1450px;
   height: auto;
 }
+
+/* 여기서부터 Fianl Project 시작*/
+
+#finalProject:after {
+  background-image: url(../img/final/doit_01_main_line.jpg);
+  top:10%;
+  left:20%;
+  position:absolute;
+  background-size:100%;
+  opacity:0.2!important;
+  filter:alpha(opacity=50);
+  z-index:-1;
+  content:"";
+  width:60%;
+  height:100%;
+  background-repeat: no-repeat;
+}
+
 
 
 
